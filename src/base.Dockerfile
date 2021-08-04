@@ -118,6 +118,7 @@ RUN cd /tmp/ && \
     $CONDA_DIR/bin/conda config --system --set show_channel_urls true && \
     $CONDA_DIR/bin/conda update --all --quiet --yes && \
     echo "Installing packages" && \
+    conda install -c conda-forge/label/cf202003 nodejs
     conda install --quiet --yes \
       'conda-build' \
       'python=3.7' \
