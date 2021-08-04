@@ -3,7 +3,7 @@
 # Build this Dockerfile and tag as:
 # nvaitc/ai-lab:x.x-base
 
-FROM nvidia/cuda:10.2-cudnn7-runtime-ubuntu18.04 
+FROM nvidia/cuda:11.2.0-cudnn8-runtime-ubuntu18.04
 
 LABEL maintainer="Timothy Liu <timothy_liu@mymail.sutd.edu.sg>"
 
